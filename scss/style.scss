@@ -1,0 +1,50 @@
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+$overlay: rgba(0,0,0,0.7);
+body{
+     background: $bg-color;
+     color: $font-color;
+}
+.navbar{
+     border-bottom: 2px solid $primary-color;
+     opacity: .8;
+}
+
+.card{
+     opacity: .7;
+}
+#home-section{
+     background: url("../img/img1.jpg");
+     background-repeat: no-repeat;
+     min-height: 500px;
+     background-position: center center;
+     background-size: cover;
+     background-attachment: fixed;
+}
+.home-inner{
+     padding-top: 100px;
+     padding-bottom: 30px;
+}
+.dark-overlay{
+     background: $overlay;
+}
+.btn-submit:hover{
+     color: $primary-color;
+}
+.home-inner{
+     p{
+          font-size: 20px;
+     }
+     .fa{
+          padding-top: 7px;
+          padding-bottom: 7px;
+     }
+}
+.btn-outline-light:hover{
+     color: $primary-color;
+}
+.img {
+     width: 200px;
+     height: 200px;
+}

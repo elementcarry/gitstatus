@@ -1,0 +1,53 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: 2px solid #008ed6;
+  opacity: .8;
+}
+
+.card {
+  opacity: .7;
+}
+
+#home-section {
+  background: url("../img/img1.jpg");
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-inner {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.btn-submit:hover {
+  color: #008ed6;
+}
+
+.home-inner p {
+  font-size: 20px;
+}
+
+.home-inner .fa {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.btn-outline-light:hover {
+  color: #008ed6;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+}
